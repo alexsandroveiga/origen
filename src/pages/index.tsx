@@ -15,7 +15,7 @@ const Home: React.FC = () => {
   return (
     <Container>
       <Head>
-        <title>Rigen</title>
+        <title>Origen</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
