@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 import RigenLogo from '../assets/rigen.svg'
 
@@ -9,6 +10,8 @@ import { Container } from '../styles/pages/Home'
 import { FiChevronRight } from 'react-icons/fi'
 
 const Home: React.FC = () => {
+  const router = useRouter()
+
   return (
     <Container>
       <Head>
@@ -35,11 +38,15 @@ const Home: React.FC = () => {
             <input type="password" placeholder="******" />
           </label>
 
-          <Link href="/dashboard">
+          <Link href="/signup">
             <a>Quero me cadastrar</a>
           </Link>
 
-          <button>
+          <button
+            onClick={() => {
+              router.push('/general')
+            }}
+          >
             Entrar <FiChevronRight size={24} color="#fff" />
           </button>
         </form>

@@ -76,6 +76,7 @@ export const Container = styled.div`
         border: 0;
         font-size: 18px;
         margin: 1rem 0 0 auto;
+        cursor: pointer;
       }
     }
   }
