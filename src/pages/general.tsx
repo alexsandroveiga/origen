@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { FiLogOut } from 'react-icons/fi'
 import { useRouter } from 'next/router'
 
-import RigenLogo from '../assets/rigen.svg'
+import RigenLogo from '../assets/origen.svg'
 import trackretail from '../assets/trackretail.png'
 import activity from '../assets/activity.png'
 import wave from '../assets/wave.png'

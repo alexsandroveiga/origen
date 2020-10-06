@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-import RigenLogo from '../assets/rigen.svg'
+import RigenLogo from '../assets/origen.svg'
 
 import { Container } from '../styles/pages/Home'
 
